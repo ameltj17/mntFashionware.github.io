@@ -1,0 +1,94 @@
+/* Menu Clothes */
+
+/* Tablet Landscape*/
+@media (max-width: 1024px) {
+/* Header */
+  .header{
+    height: 120px;
+  }
+  .search{
+    display: none;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 50px; 
+    width: 75%;
+  }
+  .nav-cnt .home{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt .clothes{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt a{
+    line-height: 40px;
+  }
+/* Contents */
+  .maximize-menubar{
+    display: block;
+    font-size: 25px;
+    width: 30px;
+    padding-left: 10px;
+  }
+  .maximize-menubar a{
+    color: #738796;
+  }
+  .maximize-menubar a:hover{
+    color: white;
+  }
+  .clothe-menubar{
+    display: none;
+  }
+  .clothes-list{
+    width: 80%;
+    margin: -10px auto 42px auto;
+  }
+}
+
+/* Tablet Potrait */
+@media (max-width: 767px) {
+/* Header */
+  .header{
+    margin-top:-50px;
+  }
+  .header .logo img{
+    display: none;
+  }
+  .header .logo p{
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: 0px;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 30px;
+    padding-bottomfont: size;  font-size: 19px;
+  }
+}
+  
+/* Handphone Landscape*/
+@media (max-width: 670px) {
+/* Contents */
+  .products-cnt{
+    justify-content: center;
+  }
+  
+/* Footer */
+  .footer{
+    font-size: 18px; 
+  }
+  .left-footer-cnt{
+    flex-direction: column;
+  }
+  .contact-cnt{
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+/* Handphone Potrait*/
+@media (max-width: 480px){
+/* Contents */
+  /* Lanjut disini */
+}

@@ -1,0 +1,152 @@
+/* Menu About */
+
+/* Tablet Landscape*/
+@media (max-width: 1024px) {
+  /* Header */
+    .header{
+      height: 120px;
+    }
+    .search{
+      display: none;
+    }
+  /* Navigation */
+    .nav-cnt{
+      padding-top: 50px; 
+      width: 75%;
+    }
+    .nav-cnt .home{
+      width: 50%;
+      text-align: center;
+    }
+    .nav-cnt .clothes{
+      width: 50%;
+      text-align: center;
+    }
+    .nav-cnt a{
+      line-height: 40px;
+    }
+  /* Contents */
+    .whyus-content .right{
+      display: none;
+    }
+    .whyus .hidden-text{
+      display: block;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 40px;
+      color: #738796;
+      text-align: center;
+    }
+    .whyus-content .left{
+      width: 100%;
+    }
+    .whyus-content .left .whyus-desc{
+      justify-content: center;
+    }
+    .whyus-content .left .whyus-desc{
+      margin: 19px auto;
+    }
+    .founders-content .founder{
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  /* Tablet Potrait */
+  @media (max-width: 767px) {
+  /* Header */
+    .header{
+      margin-top:-50px;
+    }
+    .header .logo img{
+      display: none;
+    }
+    .header .logo p{
+      font-size: 25px;
+      margin-top: 95px;
+      margin-left: 0px;
+    }
+  /* Navigation */
+    .nav-cnt{
+      padding-top: 30px;
+      padding-bottom: size;  
+      font-size: 19px;
+    }
+  /* Contents */
+    .text1-cnt{
+      font-size: 70px;
+      position: absolute;
+      top: 50px;
+      left: 55px;
+    }
+    .text2-cnt{
+      font-size: 18px;
+      position: absolute;
+      width: 70%;
+      top: 280px;
+      left: 55px;
+    }
+    .founders .title{
+      font-size: 70px;
+    }
+  }
+    
+  /* Handphone Landscape*/
+  @media (max-width: 670px) {
+  /* Contents */
+  /* Footer */
+    .footer{
+      font-size: 18px; 
+    }
+    .left-footer-cnt{
+      flex-direction: column;
+    }
+    .contact-cnt{
+      margin-top: 40px;
+      margin-left: 0;
+    }
+  /* Handphone Potrait*/
+  @media (max-width: 480px){
+  /* Contents */
+    .aboutus-image{
+      position: relative;
+      height: 300px;
+    }
+    .text1-cnt{
+      font-size: 30px;
+      width: 70%;
+      text-align: center;
+      position: absolute;
+      top: 10px;
+      left: 45px;
+    }
+    .text2-cnt{
+      width: 70%;
+      font-size: 15px;
+      text-align: center;
+      position: absolute;
+      top: 80px;
+      left: 45px;
+    }
+    .whyus .title{
+      font-size: 50px;
+    }
+    .whyus .hidden-text{
+      font-size: 15px;
+    }
+    .whyus-content .left .whyus-desc .text{
+      width: 100%;
+      text-align: center;
+    }
+    .whyus-content .left .whyus-desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .whyus-content .left{
+      padding: 20px 20px 20px 0px;
+    }
+    .founders .title{
+      font-size: 50px;
+    }
+  }

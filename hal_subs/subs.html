@@ -1,0 +1,153 @@
+<!-- GROUP PROJECT HCI - AMELIA CANTIKA P & YOSHIVEN BOER -->
+<!-- Menu Subs -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>M&T Fashionware</title>
+  
+  <!-- Link Css -->
+  <link href="style-subs.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="rsp-subs.css">
+  
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+  <!-- Js -->
+  <script src="script-subs.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="../assets_home/Logo.png">
+      <p>M&T Fashionwear<p>
+    </div>
+    <div class="menubar">
+      <input type="text" class="search" placeholder="Search Product">
+      <span class="iconify search-logo" data-icon="akar-icons:search" style="color: #738796;"></span>
+      <span class="iconify acc-logo" data-icon="healthicons:ui-user-profile-outline" style="color: #738796;"></span>
+    </div>
+  </div>
+  
+  <div class="nav-cnt">
+    <a href="../index.html" class="home">Home</a>
+    <a href="../hal_clothes/clothes.html" class="clothes">Clothes</a>
+    <a href="../hal_about/about.html" class="about">About Us</a>
+    <a href="../hal_loc/loc.html" class="loc">Location</a>
+    <a href="#" class="subs"><u>Subscribe</u></a>
+  </div>
+
+  <div class="contents">
+    <div class="content-topper">
+      <p class="text1">One step closer to achieve your special deals!</p>
+      <p class="text2">*Please fill all the data below...</p>
+    </div>
+    <div class="content-body">
+      <div class="form-cnt">
+        <div class="form-data">
+          <p class="label">Full Name</p>
+          <input type="text" name="name" id="name" placeholder="*ex: Michael Christopher">
+        </div>
+        <div class="form-data">
+          <p class="label">Email</p>
+          <input type="text" name="email" id="email" placeholder="*ex: michaelchris@email.xx">
+        </div>
+        <div class="form-data">
+          <p class="label">Password</p>
+          <input type="text" name="pass" id="pass" placeholder="*min 8 digits (only use alphabet and number)">
+        </div>
+        <div class="form-data">
+          <p class="label">Phone Number</p>
+          <input type="text" name="phone" id="phone" placeholder="*min 10 digits (ex: 082101010101)">
+        </div>
+        <div class="form-data">
+          <p class="label">Country</p>
+          <select name="country" id="country">
+            <option value="choose">*Choose One</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Brazil">Brazil</option>
+            <option value="China">China</option>
+            <option value="Germany">Germany</option>
+            <option value="Japan">Japan</option>
+          </select>
+        </div>
+        <div class="agree-confirm">
+          <div class="agree-cnt">
+            <input type="checkbox" name="agree-checkbox" id="agree">
+            <p>I agree with <a href="#">Terms & Conditions</a></p>
+          </div>
+          <div class="confirm-cnt">
+            <input type="button" value="Confirm" onclick="validate_form()">
+          </div>
+        </div>
+        <div class="alert-msg" id="alert-msg"></div>
+      </div>
+      <div class="photo"></div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-cnt">
+      <div class="left-footer-cnt">
+        <div class="menu-cnt">
+          <h1>Menu</h1>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../hal_clothes/clothes.html">Clothes</a></li>
+            <li><a href="../hal_about/about.html">About Us</a></li>
+            <li><a href="../hal_loc/loc.html">Locations</a></li>
+            <li><a href="#">Subscribe</a></li>
+          </ul>
+        </div>
+        <div class="contact-cnt">
+          <h1>Contact Us</h1>
+          <ul>
+            <li>
+              <span class="iconify" data-icon="fluent:call-16-filled" style="color: white; font-size: 27px;"></span>
+              <p>+62 81212121212</p>
+            </li>
+            <li>
+              <span class="iconify" data-icon="dashicons:email-alt" style="color: white; font-size: 27px;"></span>
+              <p>m_and_t@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-footer-cnt">
+        <div class="foll-info">
+          <div class="follow-cnt">
+            <h1>Follow Us</h1>
+            <ul>
+              <a href="https://www.instagram.com"><span class="iconify ig" data-icon="akar-icons:instagram-fill" style="color: white; font-size: 36px;"></span></a>
+              <a href="https://twitter.com"><span class="iconify twitter" data-icon="akar-icons:twitter-fill" style="color: white; font-size: 35px;"></span></a>
+              <a href="https://www.facebook.com"><span class="iconify fb" data-icon="akar-icons:facebook-fill" style="color: white; font-size: 32px;"></span></a>
+            </ul>
+          </div>
+          <div class="info">
+            <ul>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Privacy and Cookie Policy</a></li>
+              <li><a href="#">Help Center</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

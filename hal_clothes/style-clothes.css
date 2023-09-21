@@ -1,0 +1,430 @@
+/* Menu Clothes */
+
+html{
+  font-family: 'Niramit', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+/*ket: cnt = container*/
+.header{
+  height: 169px;
+  min-width: 320px;
+  width: 90%; 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo img{
+  height: 116px;
+  width: 102px;
+
+  float: left;
+  margin-top: 53px;
+
+  cursor: pointer;
+}
+.logo p{
+  font-size: 32px;
+  font-weight: 500;
+  color: #738796;
+
+  float: left;
+  margin-top: 89px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.search{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Niramit', sans-serif;
+  color: rgba(115, 135, 150, 0.48);
+
+  height: 36px;
+  width: 286px;
+  border: 2px solid #738796;
+  border-radius: 50px;
+  
+  padding-left: 11px;
+  margin-top: 94px;
+  margin-right: 9px;
+  float: left;
+}
+.menu-bar{
+  display: flex;
+  justify-content: flex-end;
+}
+.search-logo{
+  font-size: 32px;
+
+  margin-top: 96px;
+  margin-right: 13px;
+  float: left;
+}
+.cart-logo{
+  font-size: 32px;
+
+  margin-top: 95px;
+  margin-right: 13px;
+  float: left;
+}
+.acc-logo{
+  font-size: 44px;
+
+  margin-top: 89px;
+  float: left;
+}
+
+/* Navigasi */
+.nav-cnt{
+  color: #7C7C7C;
+  font-weight: 400;
+  font-size: 26px;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 26px;
+  padding-bottom: 48.61px
+}
+.nav-cnt a{
+  text-decoration: none;
+  color: #7C7C7C;
+}
+.nav-cnt a:hover {
+  color: #BBC7D0;
+}
+
+/* Content */
+.clothes-cnt{
+  display: flex;
+  flex-direction: row;
+}
+/* 1. Clothes Menu Bar */
+.clothes-menubar{
+  background-color: #BBC7D0;
+  outline-width: 10px;
+  outline-color: #BBC7D0;
+  outline-style: solid;
+  padding-top: 66px;
+}
+.maximize-menubar{
+  display: none;
+}
+.clothe-menubar{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 47px;
+  width: 361px;
+  
+  display: flex;
+  flex-direction: column;
+  padding-left: 68px;
+}
+.clothe-menubar .category{
+  display: flex;
+  flex-direction: column;
+}
+.clothe-menubar a, .clothes-menubar p{
+  text-decoration-line: none;
+  color: #7C7C7C;
+}
+.clothe-menubar .selected{
+  color: white;
+  text-decoration-line: underline;
+}
+.clothe-menubar .category p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.clothe-menubar .category a{
+  font-weight: 400;
+  margin-left: 29px;
+}
+.clothe-menubar a:hover{
+  text-decoration-line: underline;
+  color: white;
+}
+/* 2. Clothes List */
+.clothes-list{
+  width: 80%;
+  margin: -10px 94px 42px 55px;
+}
+  /* Topper */
+.topper-cnt{
+  color: #7C7C7C;
+  padding-bottom: 0;
+}
+.topper-cnt h5{
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.topper-desc{
+  font-weight: 400;
+  font-size: 24px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.sort p{
+  float: left;
+}
+.sort .iconify{
+  float: left;
+  margin-top: 32px;
+  margin-left: 3px;
+}
+.topper-cnt .line{
+  background-color: #D5DBE1;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+}
+  /* Product */
+.products-cnt{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.product .card1{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/SoftFuzzyHoodie1.jpg");
+  background-size: contain;
+}
+.product .card1:hover{
+  background-image: url("assets_clothes/SoftFuzzyHoodie2.jpg");
+  background-size: contain;
+}
+.product .card2{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/CargoJogger1.jpg");
+  background-size: contain;
+}
+.product .card2:hover{
+  background-image: url("assets_clothes/CargoJogger2.jpg");
+  background-size: contain;
+}
+.product .card3{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/ClassyDenimJacket1.jpg");
+  background-size: contain;
+}
+.product .card3:hover{
+  background-image: url("assets_clothes/ClassyDenimJacket2.jpg");
+  background-size: contain;
+}
+.product .card4{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/RelaxedPlaidShirt1.jpg");
+  background-size: contain;
+}
+.product .card4:hover{
+  background-image: url("assets_clothes/RelaxedPlaidShirt2.jpg");
+  background-size: contain;
+}
+.product .card5{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/CanvasCap1.jpg");
+  background-size: contain;
+}
+.product .card5:hover{
+  background-image: url("assets_clothes/CanvasCap2.jpg");
+  background-size: contain;
+}
+.product .card6{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/RegularSweatshort1.jpg");
+  background-size: contain;
+}
+.product .card6:hover{
+  background-image: url("assets_clothes/RegularSweatshort2.jpg");
+  background-size: contain;
+}
+.product .card7{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/JeansCanvasShoes1.jpg");
+  background-size: contain;
+}
+.product .card7:hover{
+  background-image: url("assets_clothes/JeansCanvasShoes2.jpg");
+  background-size: contain;
+}
+.product .card8{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/RetroSunglasses1.jpg");
+  background-size: contain;
+}
+.product .card8:hover{
+  background-image: url("assets_clothes/RetroSunglasses2.jpg");
+  background-size: contain;
+}
+.product .card9{
+  width: 251.95px;
+  height: 309.29px;
+  background-image: url("assets_clothes/BasicBucketHat1.jpg");
+  background-size: contain;
+}
+.product .card9:hover{
+  background-image: url("assets_clothes/BasicBucketHat2.jpg");
+  background-size: contain;
+}
+.product img{
+  width: 251.95px;
+  height: 309.29px;
+}
+.product-desc{
+  margin-top: 9.71px;
+  display: flex;
+  justify-content: space-between;
+}
+.product a{
+  text-decoration-line: none;
+}
+.product-name{
+  color: #7C7C7C;
+  font-weight: 500;
+  font-size: 24px;
+}
+.fa-heart{
+  margin-top: 3px;
+  cursor: pointer;
+  font-size: 23px;
+  color:  #BBC7D0;
+}
+.product-price{
+  color: #7C7C7C;
+  margin-top: 4px;
+  padding-bottom: 15px;
+}
+.addtocart-btn{
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  background-color: #7C7C7C;
+  padding: 13px 75px;
+}
+.addtocart-btn:hover{
+  background-color: #BBC7D0;
+}
+  /* See More */
+.seemore-cnt{
+  display: flex;
+  justify-content: flex-end;
+}
+.seemore-cnt a{
+  color: #94989C;
+  text-decoration-line: none;
+  font-weight: 500;
+  font-size: 24px;
+}
+.seemore-cnt .iconify{
+  font-size: 27px;
+  margin-top: 3px;
+}
+.seemore-cnt a:hover{
+  background-color: #BBC7D0;
+}
+
+/* Footer */
+.footer{
+  width: 100%;
+  display: block;
+  background-color: #7C7C7C;
+  outline-style: solid;
+  outline-width: 10px;
+  outline-color: #7C7C7C;
+  margin-top: 20px;
+}
+.footer-cnt{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 83px;
+  padding-bottom: 112px;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+.left-footer-cnt{
+  display: flex;
+  margin-left: 5%;
+}
+.right-footer-cnt{
+  margin-right: 5%;
+}
+.footer-cnt h1{
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.footer-cnt ul{
+  list-style-type: none;
+  padding-left: 0px;
+  color: #FFFFFF;
+}
+.footer-cnt a{
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+  /* Menu */
+.menu-cnt ul{
+  line-height: 200%;
+}
+.menu-cnt li:hover{
+  text-decoration-line: underline;
+}
+  /* Contact Us */
+.contact-cnt{
+  margin-left: 10%;
+}
+.contact-cnt li{
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-cnt li p{
+  margin-top: 0px;
+  margin-left: 12px;
+}
+.foll-info{
+  margin-right: 10%;
+}
+  /* Follow Us */
+.follow-cnt ul{
+  display: flex;
+  justify-content: flex-start;
+}
+.follow-cnt a{
+  margin-right: 13px;
+}
+.follow-cnt .fb{
+  margin-right: 0px;
+}
+.follow-cnt a:hover{
+  background-color: #BBC7D0;
+}
+  /* Info */
+.foll-info .info{
+  margin-top: 36px;
+}
+.foll-info .info ul{
+  line-height: 200%;
+}
+.foll-info .info li:hover{
+  text-decoration-line: underline;
+}

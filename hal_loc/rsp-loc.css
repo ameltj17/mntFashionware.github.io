@@ -1,0 +1,274 @@
+/* Menu Location */
+
+/* Tablet Landscape*/
+@media (max-width: 1024px) {
+/* Header */
+  .header{
+    height: 120px;
+  }
+  .search{
+    display: none;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 50px; 
+    width: 75%;
+  }
+  .nav-cnt .home{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt .clothes{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt a{
+    line-height: 40px;
+  }
+/* Contents */
+  .map{
+    width: 80%;
+    transition: 1s;
+    margin: 0 auto;
+    padding: 0 0;
+  }
+  .map img{
+    display: block;
+    width: 100%;
+    border-radius: 35px;
+  }
+  .map:hover{
+    transform: scale(1.1);
+    border-radius: 60px;
+  }
+  .location-cnt{
+    display: none;
+  }
+  .hidden-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #BBC7D0;
+    border-radius: 25px;
+    align-items: center;
+    margin-top: -300px;
+    margin-bottom: 30px;
+  }
+  .hidden-content .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .hidden-content .top img{
+    height: 169.41;
+    width: 167.81;
+  }
+  .hidden-content .top .logo{
+    display: flex;
+    flex-direction: column;
+  }
+  .hidden-content .top .logo-title{
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    margin: 0 0;
+  }
+  .hidden-content .top .logo-title2{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin: 0 0;
+  }
+  .hidden-content .content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hidden-content .content .loc-img{
+    width: 90%;
+    height: 349px;
+    border-radius: 50px;
+  }
+  .hidden-content .content .text-loc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2F5D77;
+    padding: 16px 62px;
+    border-radius: 50px;
+    margin-top: 12px;
+  }
+  .hidden-content .content .text-loc .loc{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 0 0;
+  }
+  .hidden-content .content .text-loc .add{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 0;
+  }
+  .hidden-content .content .text-loc .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hidden-content .content .text-loc .left-info{
+    display: flex;
+    align-items: center;
+  }
+  .hidden-content .content .text-loc .right-info{
+    display: flex;
+    align-items: center;
+  }
+  .hidden-content .content .text-loc .right-info .iconify{
+    margin-right: 10px;
+  }
+  .hidden-content .content .text-loc .info .iconify{
+    font-size: 28px;
+  }
+  .hidden-content .content .text-loc .info p{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+  }
+  .hidden-content .content .text-loc .right-info p{
+    color: white;
+    text-decoration-line: none;
+  }
+  .hidden-content .content2{
+    margin-top: 30px;
+  }
+  .hidden-content .content3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Tablet Potrait */
+@media (max-width: 767px) {
+/* Header */
+  .header{
+    margin-top:-50px;
+  }
+  .header .logo img{
+    display: none;
+  }
+  .header .logo p{
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: 0px;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 30px;
+    padding-bottomfont: size;  font-size: 19px;
+  }
+/* Contents */
+  .hidden-content{
+    margin-top: -400px;
+  }
+}
+  
+/* Handphone Landscape*/
+@media (max-width: 670px) {
+/* Contents */
+  .hidden-content .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden-content .top img{
+    height: 86px;
+    width: 86px;
+  }
+  .hidden-content .top .logo-title{
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .hidden-content .top .logo-title2{
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .hidden-content .content .text-loc .loc{
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .hidden-content .content .text-loc .add{
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .hidden-content .content .text-loc .info .iconify{
+    font-size: 20px;
+  }
+  .hidden-content .content .text-loc .info p{
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .hidden-content .content .loc-img{
+    width: 100%;
+  }
+  
+/* Footer */
+  .footer{
+    font-size: 18px; 
+  }
+  .left-footer-cnt{
+    flex-direction: column;
+  }
+  .contact-cnt{
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+/* Handphone Potrait*/
+@media (max-width: 480px){
+/* Contents */
+  .hidden-content{
+    margin-top: -500px;
+  }
+  .hidden-content .content .loc-img{
+    width: 350px;
+    height: 200px;
+  }
+  .hidden-content .content .text-loc{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2F5D77;
+    padding: 16px 15px;
+    border-radius: 50px;
+    margin-top: 12px;
+  }
+  .hidden-content .content .text-loc .info{
+    display: flex;
+    justify-content: center;
+  }
+  .hidden-content .content .text-loc .info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0;
+  }
+  .hidden-content .content .text-loc .info .iconify{
+    font-size: 30px;
+    margin: 0 0;
+  }
+  .hidden-content .content .text-loc .info p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hidden-content .content .text-loc .info .date1-text1{
+    margin-bottom: 20px;
+  }
+}

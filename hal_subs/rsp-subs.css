@@ -1,0 +1,126 @@
+/* Menu Subs */
+
+/* Tablet Landscape*/
+@media (max-width: 1024px) {
+/* Header */
+  .header{
+    height: 120px;
+  }
+  .search{
+    display: none;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 50px; 
+    width: 75%;
+  }
+  .nav-cnt .home{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt .clothes{
+    width: 50%;
+    text-align: center;
+  }
+  .nav-cnt a{
+    line-height: 40px;
+  }
+/* Contents */
+  .contents .content-body .photo{
+    display: none;
+  }
+  .contents .content-body .form-cnt{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .contents .content-body{
+    justify-content: center;
+  }
+  .contents .content-body .form-cnt .agree-confirm{
+    justify-content: center;
+  }
+}
+
+/* Tablet Potrait */
+@media (max-width: 767px) {
+/* Header */
+  .header{
+    margin-top:-50px;
+  }
+  .header .logo img{
+    display: none;
+  }
+  .header .logo p{
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: 0px;
+  }
+/* Navigation */
+  .nav-cnt{
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 19px;
+  }
+/* Contents */
+ 
+}
+  
+/* Handphone Landscape*/
+@media (max-width: 670px) {
+/* Contents */
+  .contents .content-body .form-data .label{
+    width: 80%;
+    text-align: left;
+    margin: 10px auto;
+  }
+  .nav-cnt{
+    padding-bottom: 0;
+  }
+  .contents .content-body .form-cnt{
+    padding-top: 20px;
+  }
+  .contents .content-body .form-data{
+    display: flex;
+    flex-direction: column;
+  }
+  .contents .content-body .form-data input{
+    width: 80%;
+  }
+  .contents .content-body .form-data select{
+    width: 80%;
+  }
+  .contents .content-body .form-cnt .agree-confirm .agree-cnt input[type=checkbox]{
+  transform: scale(1.5);
+  }
+  .contents .content-body .form-cnt .agree-confirm .agree-cnt p{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  .contents .content-body .form-cnt .agree-confirm .agree-cnt a{
+    font-size: 17px;
+  }
+  .contents .content-body .form-cnt .agree-confirm .agree-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+/* Footer */
+  .footer{
+    font-size: 18px; 
+  }
+  .left-footer-cnt{
+    flex-direction: column;
+  }
+  .contact-cnt{
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+/* Handphone Potrait*/
+@media (max-width: 480px){
+/* Contents */
+  .contents .content-body .form-data input{
+    font-size: 17px;
+  }
+}
